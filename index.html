@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Welcome to Docker</title>
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+            <div class="container px-4">
+                <a class="navbar-brand" href="#page-top">Docker test page</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="#about">About Docker</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#hw">How it works?</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#links">Useful links</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contacts</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Header-->
+        <header class="bg-primary bg-gradient text-white">
+            <div class="container px-4 text-center">
+             <style>
+p {
+  background-image: url('bg.png');
+}
+</style> 
+                <h1 class="fw-bolder">Welcome to Docker</h1>
+                <p class="lead">This web page was created to run it with Docker</p>
+                <p class="lead">On this page, I will demonstrate to you why it is important to learn Docker as a tool for development and managing containerized applications. </p>
+                <a class="btn btn-lg btn-light" href="#about">Start scrolling!</a>
+            </div>
+        </header>
+        <!-- About section-->
+        <section id="about">
+            <div class="container px-4">
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-8">
+                        <h2>What is Docker?</h2>
+                        <p class="lead">Docker is an open-source platform that enables the creation, deployment, and management of containerized applications. It provides an efficient way to package applications and their dependencies into lightweight, portable containers. These containers can be easily deployed and run consistently across different environments, such as development, testing, and production.Docker helps with:</p>
+                        <ul>
+                            <li>Application deployment: Docker can be used to deploy and manage applications in a consistent and repeatable way, regardless of the underlying infrastructure.</li>
+                            <li>Continuous integration and delivery: Docker can be used to create a standardized build environment for applications, making it easier to integrate and test code changes as part of a continuous integration and delivery pipeline.</li>
+                            <li>DevOps: Docker can be used to automate the deployment and management of applications, enabling developers and operations teams to collaborate more effectively and reduce the time and effort required to manage infrastructure.</li>
+                            <li>Cloud migration: Docker can be used to containerize existing applications and move them to the cloud, making it easier to manage and scale applications in a cloud environment.</li>
+                            <li>Testing and debugging: Docker can be used to create isolated test environments for applications, making it easier to test and debug code changes in a controlled and reproducible environment.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Services section-->
+        <section class="bg-light" id="hw">
+            <div class="container px-4">
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-8">
+                        <h2>How it works?</h2>
+                        <p class="lead">Docker is a containerization platform that allows you to package applications and their dependencies into lightweight, isolated containers. Here's a high-level overview of how Docker works:
+‍<br>·Images: Docker images are the building blocks of containers. An image is a read-only template that contains the application code, runtime environment, libraries, and dependencies. Images are created using Dockerfiles, which define the steps to build the image.
+<br>·Containers: Containers are lightweight, isolated runtime instances of images. They provide an environment where applications can run consistently across different systems. Each container is an isolated process with its own filesystem, network, and resources. Multiple containers can run on the same host, sharing the host's OS kernel.
+<br>·Docker Engine: The Docker Engine is the runtime that executes and manages containers. It consists of two main components:
+<br>·Docker Daemon: The Docker Daemon runs on the host machine and manages container operations. It handles building, running, and  distributing containers. The Docker Daemon listens for API requests and manages the container lifecycle.
+<br>·Docker CLI: The Docker Command-Line Interface (CLI) is a tool that allows users to interact with the Docker Daemon. It provides a set of  commands to build, run, and manage containers and images.
+‍<br>·Registry: Docker Registry is a centralized repository that stores Docker images. The default public registry is Docker Hub, where you can find a wide range of pre-built images. You can also set up your private registry to store custom images.
+<br>·Networking: Docker provides networking capabilities to connect containers with each other and with external networks. Containers can be assigned their own IP addresses and can communicate with other containers on the same network. Docker also supports exposing ports on the host machine to make containerized services accessible from outside.
+<br>·Orchestration: Docker can be integrated with container orchestration platforms like Docker Swarm or Kubernetes to manage and scale containerized applications across multiple hosts. Orchestration tools help with scheduling containers, load balancing, service discovery, and automated scaling.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bg-light" id="links">
+            <div class="container px-4">
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-8">
+                        <h2>Useful links:</h2>
+                            <ul>
+                            <li><a href="https://www.docker.com/">Official Docker Web Site</a></li>
+                            <li><a href="https://docs.docker.com/">Official Docker Docs</a></li>
+                            <li><a href="https://github.com/docker">Docker GitHub Thread</a></li>
+                            <li><a href="https://aws.amazon.com/docker/">AWS "What is Docker?"</a></li>
+                            <li><a href="https://www.oracle.com/cloud/cloud-native/container-registry/what-is-docker/">ORACLE "What is Docker?</a></li>
+                        </ul>
+                        <p class="lead">By learning Docker, you gain a valuable skill set that aligns with current industry trends and best practices in software development and deployment. It empowers you to build, ship, and run applications more efficiently, with improved consistency and portability.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Contact section-->
+        <section id="contact">
+            <div class="container px-4">
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-8">
+                        <h2><a href="mailto:yury.zavgorodnev@gmail.com">Contact us</a></h2>
+                        <p class="lead">If you have any questions, please click on Contact us to send me an email</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="py-5 bg-dark">
+            <div class="container px-4"><p class="m-0 text-center text-white">Copyright &copy; Zavhorodniev</p></div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
